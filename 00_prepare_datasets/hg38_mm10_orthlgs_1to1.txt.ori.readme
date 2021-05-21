@@ -1,0 +1,24 @@
+#1:1 orthologues in the "hg38_mm10_orthlgs_1to1.txt.ori" file were obtained from the "hg38_mm10_orthlgs_full.txt" file by choosing only genes with a high confidence were selected and among those, the ones with the largest conservation scores, and included Cldn11 for interest of the research. The following python script was used for this.
+
+sAll0,sDup0=set(),set()
+sAll1,sDup1=set(),set()
+lInf=[]
+for l in open('hg38_mm10_orthlgs_full.txt','r'):
+        if l.strip() and l.splitlines()[0].split('\t')[5]=='ortholog_one2one' or l.split('\t')[0]=='CLDN11':
+                lInf.append(l.splitlines()[0])
+                g0,g1=l.splitlines()[0].split('\t')[:2]
+                if g0 in sAll0:
+                        sDup0.add(g0)
+                sAll0.add(g0)
+                if g1 in sAll1:
+                        sDup1.add(g1)
+                sAll1.add(g1)
+
+
+lInf=sorted([l for l in lInf if (l.split('\t')[0] not in sDup0 and l.split('\t')[1] not in sDup1)])
+lInf.insert(0,'#Gene name\tMouse gene name\tMouse Gene-order conservation score\tMouse Whole-genome alignment coverage\tMouse orthology confidence [0 low, 1 high]\tMouse homology type')
+
+inf=open('hg38_mm10_orthlgs_1to1.txt.ori','w')
+inf.write('\n'.join(lInf))
+inf.close()
+

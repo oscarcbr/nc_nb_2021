@@ -1,0 +1,1 @@
+#This file contains a table for the comprehensive Genecode 18 mouse annotation with gene names (e.g. "geneId", column 0) and gene codes (e.g. "geneName", column 1). It was obtained from the UCSC browser selecting the table "mm10.wgEncodeGencodeCompVM18 " the field "name2" and from the table  "mm10.wgEncodeGencodeAttrsVM18" and the fields and "geneName".

@@ -1,0 +1,1 @@
+#The annotation of "gene type" downloaded from Ensembl for hg38 with the  following fields: "Transcript stable ID" and "Transcript type". The  values are going to be included in the GTF file using the field  "gene_biotype". The file downloaded from Ensembl was saved in "hg38.genecodeV28Comp.geneType.tsv"

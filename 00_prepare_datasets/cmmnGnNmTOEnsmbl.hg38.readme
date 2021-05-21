@@ -1,0 +1,22 @@
+#After obtaining "cmmnGnNmTOEnsmbl.hg38.ori" table, the ENSEMBL codes were edited to remove the subversions and redundancies with the following script:
+
+dGnNmGnId={}
+for l in open('cmmnGnNmTOEnsmbl.hg38.ori','r'):
+        if l[0]!='#':
+                gnId,gnNm = l.splitlines()[0].split('\t')
+                gnId=gnId.split('.')[0]
+                if dGnNmGnId.has_key(gnId):
+                        try:
+                                assert gnNm==dGnNmGnId[gnId]
+                        except:
+                                print gnNm,dGnNmGnId[gnId],gnId
+                else:
+                        dGnNmGnId[gnId]=gnNm
+
+outFl=open('cmmnGnNmTOEnsmbl.hg38','w')
+outFl.write('%s\n'%'\t'.join(['Gene name','Gene stable ID']))
+for gnId in sorted(dGnNmGnId.keys()):
+        outFl.write('%s\n'%'\t'.join([dGnNmGnId[gnId],gnId]))
+
+outFl.close()
+

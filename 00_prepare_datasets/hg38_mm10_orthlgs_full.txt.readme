@@ -1,0 +1,10 @@
+#The file hg38_mm10_orthlgs_full.txt was obtained on 11.09.2019 from biomart with the following parameters:
+#Dataset
+#Human genes (GRCh38.p12)
+#Attributes
+#Gene name
+#Mouse gene name
+#Mouse Gene-order conservation score
+#Mouse Whole-genome alignment coverage
+#Mouse orthology confidence [0 low, 1 high]
+#Mouse homology type

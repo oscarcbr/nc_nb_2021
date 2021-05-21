@@ -1,0 +1,1 @@
+#The annotation of "gene type" downloaded from Ensembl for mm10 was obtained with the following fields: "Transcript stable ID" and "Transcript type". The values are going to be included in the GTF file using the field "gene_biotype". The file downloaded from Ensembl was saved in "mm10.genecodeV18Comp.geneType.tsv". The reference was mm10/GRCm38.p6 obtained in 14.01.2019.

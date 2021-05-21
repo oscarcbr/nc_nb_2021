@@ -1,0 +1,17 @@
+#After obtaining "cmmnGnNmTOEnsmbl.mm10.ori" table, the ENSEMBL codes were edited to remove the subversions and redundancies with the following script:
+
+inf='cmmnGnNmTOEnsmbl.mm10.ori'#downloaded file
+outf='cmmnGnNmTOEnsmbl.mm10'
+sLns=set()
+for l in open(inf,'r'):
+        if l.strip() and l[0]!='#':
+                l=l.splitlines()[0].split()
+                gnNm,gnCd=l[0],l[1].split('.')[0]
+                sLns.add((gnNm,gnCd))
+
+ooutf=open(outf,'w')
+ooutf.write('Gene name\tGene stable ID\n')
+for v in sorted(sLns):
+        ooutf.write('%s\t%s\n'%(v[0],v[1]))
+
+ooutf.close()
