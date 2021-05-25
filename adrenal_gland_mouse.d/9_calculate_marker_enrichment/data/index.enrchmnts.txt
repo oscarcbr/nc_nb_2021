@@ -1,0 +1,20 @@
+#source	file	column_gene	column_group	location	Species	h5ad_db
+Guo et al. 2020	5SympthAdrnlDvlpmntCllsTyps	0	1	data/5SympthAdrnlDvlpmntCllsTyps.tsv	Human	NA
+Kildisiute et al. 2020	6AlgrthmMrkrs10XTmr	0	1	data/6AlgrthmMrkrs10XTmr.tsv	Human	NA
+498_SEQC_Kaplan	498lowHighSrvl	0	1	data/498lowHighSrvl.tsv	Human	NA
+498_SEQC_Kaplan	498lowHighCrrAge	0	1	data/498lowHighCrrAge.tsv	Human	NA
+498_SEQC_Kaplan	498HighNonHghRsk	0	1	data/498HighNonHghRsk.tsv	Human	NA
+Boeva et al. 2017	Group1_group2	0	1	data/Group1_group2.tsv	Human	NA
+van Groningen et al. 2017	MES_ADR_sgntr	0	1	data/MES_ADR_sgntr.tsv	Human	NA
+#Specific signature
+Furlan et al. 2018	E12_NC	0	1	data/E12_NC.upOdwn.tsv	Mouse	$PATH_to_h5ad_file_with_embedding
+Furlan et al. 2018	E13_NC	0	1	data/E13_NC.upOdwn.tsv	Mouse	$PATH_to_h5ad_file_with_embedding
+Self 2021	hg10_eAdrnl4v2_KEql10	0	1	data/hg10_eAdrnl4v2.KEql10.upOdwn.tsv	Human	$PATH_to_h5ad_file_with_embedding
+Self 2021	hg10_NB_KEql10	0	1	data/hg10_NB.KEql10.upOdwn.tsv	Human	$PATH_to_h5ad_file_with_embedding
+Self 2021	mm10_AG_mouse_KEql19	0	1	data/mm10_AG_mouse.KEql19.upOdwn.tsv	Mouse	$PATH_to_h5ad_file_with_embedding
+#Average gene expression
+Furlan et al. 2018	E12_NC_avrg	0	1	data/E12_NC.upOdwn.avrg.tsv	Mouse	$PATH_to_h5ad_file_with_embedding
+Furlan et al. 2018	E13_NC_avrg	0	1	data/E13_NC.upOdwn.avrg.tsv	Mouse	$PATH_to_h5ad_file_with_embedding
+Self 2021	hg10_NB_KEql10_avrg	0	1	data/hg10_NB.KEql10.upOdwn.avrg.tsv	Human	$PATH_to_h5ad_file_with_embedding
+Self 2021	hg10_eAdrnl4v2_KEql10_avrg	0	1	data/hg10_eAdrnl4v2.KEql10.upOdwn.avrg.tsv	Human	/crex2/proj$PATH_to_h5ad_file_with_embedding
+Self 2021	mm10_AG_mouse_KEql19_avrg	0	1	data/mm10_AG_mouse.KEql19.upOdwn.avrg.tsv	Mouse	$PATH_to_h5ad_file_with_embedding
