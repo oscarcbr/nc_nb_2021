@@ -1,0 +1,2 @@
+#source bam_root_fldr	out_root_fldr	BAM_src	smpls
+AG_mouse	$PATH_to_folder_to_create_symbolic links_to_BAM_files	$PATH_to_folder_to_output_looms_files	$PATH_to_parent_folder_with_BAM_files	SS2_17_343|SS2_17_344|SS2_18_111|SS2_18_114|SS2_18_116
