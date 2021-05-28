@@ -1,0 +1,5 @@
+#The genes with expression significantly associated with high vs. low survival were obtained from R2 for the 498 SEQC database with a Kaplan modus "scan" and FDR threshold of 0.01. Column "hugo" was selected for gene symbols/names and column "sublist" with the expected survival. The results were saved in the file "498lowHighSrvl.tsv".
+
+#The genes significantly and directly vs. inversely correlated with age were obtained from R2 for the 498 SEQC database with a FDR threshold of 0.01. Column "hugo" was selected for gene symbols/names and column with correlation sign to sense of the correlation. The results were saved in the file "498lowHighCrrAge.tsv".
+
+#The genes differentially expressed in high-risk vs. non-high-risk were obtained from R2 for the 498 SEQC database with ANOVA and a FDR threshold of 0.01. Column "hugo" was selected for gene symbols/names and column "sublist" to define the risk group. The results were saved in the file "498HighNonHghRsk.tsv".
