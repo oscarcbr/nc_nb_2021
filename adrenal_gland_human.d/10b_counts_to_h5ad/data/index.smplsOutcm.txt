@@ -1,0 +1,21 @@
+SS2_17_378	High
+SS2_17_286	High
+SS2_17_285	High
+SS2_17_282	High
+SS2_17_284	Low
+SS2_17_376	Low
+SS2_17_283	Low
+SS2_17_380	Low
+SS2_17_374	Intermediate
+SS2_17_382	Low
+SS2_17_281	High
+SS2_17_343	adrenal_gland_mouse
+SS2_17_344	adrenal_gland_mouse
+SS2_18_111	adrenal_gland_mouse
+SS2_18_116	adrenal_gland_mouse
+SS2_18_114	adrenal_gland_mouse
+SS2_18_197	adrenal_gland_human
+SS2_19_182	adrenal_gland_human
+SS2_19_184	adrenal_gland_human
+SS2_19_186	adrenal_gland_human
+
