@@ -1,0 +1,4 @@
+#depot_folder(output)	annotation_file(input)	source_PAGODA_folder(input)	prefix
+depot.d/hg10_NB.KEql10.d	clstrAnntns.d/NB.noMitchnd.KEql10.tsv	$PATH_to_"NB.d/KEql10.d"_from_"8_calculate_gene_expression_differences"	hg10_NB.KEql10
+depot.d/hg10_eAdrnl4v2.KEql10.d	clstrAnntns.d/eAdrnl4v2.noMitchnd.KEql10.tsv	$PATH_to_"eAdrnl4v2.d/KEql10.d"_from_"8_calculate_gene_expression_differences"	hg10_eAdrnl4v2.KEql10
+depot.d/mm10_AG_mouse.KEql19.d	clstrAnntns.d/AG_mouse.KEql19.tsv	$PATH_to_"AG_mouse.d/KEql19.d"_from_"8_calculate_gene_expression_differences"	mm10_AG_mouse.KEql19
