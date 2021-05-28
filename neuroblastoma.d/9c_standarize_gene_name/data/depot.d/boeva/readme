@@ -1,0 +1,3 @@
+# Boeva et al. 2017 used a mixed between RNA-seq and sc-Seq to identify the landscape of NBs. They identified 3 different types of identities defined as core regulatory circuitries, namely: 1) a sympathetic noradrenergic defined by a module including PHOX2B, HAND2, and GATA3, 2) NCC-like driven by a module containing AP-1, and a mixed type containg a mixed of both and deconvolved at the single cell level. They examined 25 neuroblatoma cell lines and two primary NCC lines. 
+
+#Genes for CRCs for "module 1" as well as for "module 2" were taken from Figure 1h and saved as "NB_CRC.tsv" and "NCC_CRC.tsv" respectively, both were merged in "Group1_group2.tsv"

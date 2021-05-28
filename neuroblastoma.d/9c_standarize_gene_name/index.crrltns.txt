@@ -1,0 +1,6 @@
+#source file	case_study	cluster_number	location	species
+Furlan et al. 2018	E12_NC	5	data/E12_NC.crrltn.tsv	Mouse
+Furlan et al. 2018	E13_NC	6	data/E13_NC.crrltn.tsv	Mouse
+Self 2021	mm10_AG_mouse_KEql19	19	data/mm10_AG_mouse.KEql19.crrltn.tsv	Mouse
+Self 2021	hg10_eAdrnl4v2_KEql10	10	data/hg10_eAdrnl4v2.KEql10.crrltn.tsv	Human
+Self 2021	hg10_NB_KEql10	10	data/hg10_NB.KEql10.crrltn.tsv	Human
