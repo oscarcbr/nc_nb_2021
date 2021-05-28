@@ -1,0 +1,21 @@
+SS2_17_378	4
+SS2_17_286	4
+SS2_17_285	4
+SS2_17_282	3
+SS2_17_284	2B
+SS2_17_376	3
+SS2_17_283	4S
+SS2_17_380	1
+SS2_17_374	2
+SS2_17_382	4S
+SS2_17_281	4
+SS2_17_343	adrenal_gland_mouse
+SS2_17_344	adrenal_gland_mouse
+SS2_18_111	adrenal_gland_mouse
+SS2_18_116	adrenal_gland_mouse
+SS2_18_114	adrenal_gland_mouse
+SS2_18_197	adrenal_gland_human
+SS2_19_182	adrenal_gland_human
+SS2_19_184	adrenal_gland_human
+SS2_19_186	adrenal_gland_human
+
